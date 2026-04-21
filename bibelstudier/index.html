@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sv" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibelappen — Din dagliga bibelvägledning</title>
+  <meta name="description" content="Bibelappen is a native iOS app for daily Bible study with AI-powered insights, reading plans, and gamified progress. Built by Wideout AB.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>B</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            accent: '#4338ca',
+            'accent-dark': '#3730a3',
+            warm: '#92400e',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+  <!-- Nav -->
+  <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="text-lg font-semibold tracking-tight text-gray-900">Wideout</a>
+      <div class="flex gap-6 text-sm text-gray-600">
+        <a href="/" class="hover:text-accent transition-colors">Home</a>
+        <a href="terms/" class="hover:text-accent transition-colors">Terms</a>
+        <a href="privacy/" class="hover:text-accent transition-colors">Privacy</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="max-w-5xl mx-auto px-6 py-20 md:py-28">
+    <p class="text-sm font-medium tracking-wide uppercase text-accent">Bibelappen &middot; iOS</p>
+    <h1 class="mt-3 text-4xl md:text-5xl font-bold tracking-tight text-gray-900">Din dagliga bibelvägledning.</h1>
+    <p class="mt-5 text-lg md:text-xl text-gray-500 max-w-2xl leading-relaxed">Bibelappen hjälper dig bygga en daglig vana av bibelläsning. AI-drivna andakter, läsplaner för varje livsfas, och en spelifierad upplevelse som håller dig motiverad.</p>
+    <p class="mt-4 text-sm text-gray-400">Kommer snart till App Store.</p>
+  </section>
+
+  <!-- Features -->
+  <section class="bg-gray-50 py-20 border-y border-gray-100">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-2xl font-semibold tracking-tight text-gray-900">Vad gör Bibelappen unik</h2>
+      <div class="mt-10 grid gap-8 md:grid-cols-2">
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">Dagliga andakter med AI</h3>
+          <p class="mt-2 text-gray-600 leading-relaxed">Varje dag får du en personlig andakt anpassad efter din livsfas och dina mål. AI-tekniken skapar reflektioner som möter dig där du är.</p>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">Läsplaner för varje livsfas</h3>
+          <p class="mt-2 text-gray-600 leading-relaxed">Oavsett om du är konfirmand, nybörjare eller erfaren bibelläsare finns det en plan som passar. Följ din framgång dag för dag.</p>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">Synka mellan enheter</h3>
+          <p class="mt-2 text-gray-600 leading-relaxed">Dina bokmärken, markeringar och framsteg synkas automatiskt via iCloud. Byt enhet utan att tappa bort dig.</p>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">Bygg en vana</h3>
+          <p class="mt-2 text-gray-600 leading-relaxed">Streaks, XP och utmaningar hjälper dig hålla läsvanan levande. En lugn, respektfull design som inspirerar utan att stressa.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Support / Contact -->
+  <section class="py-20">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-2xl font-semibold tracking-tight text-gray-900">Support</h2>
+      <p class="mt-4 max-w-2xl text-gray-600 leading-relaxed">Frågor, feedback eller buggrapporter? Vi läser varje mejl.</p>
+      <p class="mt-4">
+        <a href="mailto:info@wideout.se" class="text-accent hover:text-accent-dark transition-colors">info@wideout.se</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-8">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+      <p>&copy; 2026 Wideout AB. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a href="/" class="hover:text-white transition-colors">Wideout</a>
+        <a href="privacy/" class="hover:text-white transition-colors">Privacy</a>
+        <a href="terms/" class="hover:text-white transition-colors">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Bibelappen</title>
+  <meta name="description" content="Privacy policy for the Bibelappen iOS app by Wideout AB.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>B</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            accent: '#4338ca',
+            'accent-dark': '#3730a3',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+  <!-- Nav -->
+  <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="text-lg font-semibold tracking-tight text-gray-900">Wideout</a>
+      <div class="flex gap-6 text-sm text-gray-600">
+        <a href="/bibelstudier/" class="hover:text-accent transition-colors">Bibelappen</a>
+        <a href="/bibelstudier/terms/" class="hover:text-accent transition-colors">Terms</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Privacy Policy -->
+  <section class="max-w-3xl mx-auto px-6 py-16 md:py-24">
+    <p class="text-sm font-medium tracking-wide uppercase text-accent">Bibelappen</p>
+    <h1 class="mt-3 text-3xl md:text-4xl font-bold tracking-tight text-gray-900">Privacy Policy</h1>
+    <p class="mt-2 text-sm text-gray-400">Last updated: April 2026</p>
+
+    <div class="mt-10 space-y-8 text-gray-600 leading-relaxed">
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Summary</h2>
+        <p class="mt-2">Bibelappen is designed to respect your privacy. Your Bible reading data syncs via your personal iCloud account — we never see it. We do not collect personal information, we do not track you across apps, and we do not sell data to third parties.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Data stored on your device and in iCloud</h2>
+        <p class="mt-2">Bibelappen stores the following data locally on your device using Apple's SwiftData framework:</p>
+        <ul class="mt-2 list-disc list-inside space-y-1 text-sm">
+          <li>Your reading progress, bookmarks, and highlights</li>
+          <li>Journal entries and personal reflections</li>
+          <li>Onboarding preferences and life stage selection</li>
+          <li>Level, XP, streaks, and achievements</li>
+          <li>Reading plan enrollments and challenge progress</li>
+        </ul>
+        <p class="mt-2">If you are signed into iCloud, this data syncs automatically between your devices via Apple's CloudKit. The data is stored in your personal iCloud account — Wideout AB does not have access to it. Apple's iCloud terms and privacy policy apply to this sync.</p>
+        <p class="mt-2">Bible text and cached content (devotionals, study questions, verse context) are stored locally only and do not sync to iCloud.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">AI-powered features</h2>
+        <p class="mt-2">Bibelappen uses AI to generate devotionals, study questions, and verse context. When you use these features, your request (such as a Bible reference or a study question) is sent to our proxy server, which forwards it to OpenAI for processing. We do not store these requests or responses on our servers — they are relayed in real time and discarded.</p>
+        <p class="mt-2">The AI proxy does not receive your name, email, Apple ID, or any identifier that ties requests to you personally. Requests include only the Bible reference or question text needed to generate a response.</p>
+        <p class="mt-2">OpenAI's data usage policy applies to the processing of these requests. See <a href="https://openai.com/policies/privacy-policy" class="text-accent hover:text-accent-dark transition-colors">OpenAI's privacy policy</a>.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Analytics</h2>
+        <p class="mt-2">Bibelappen uses <strong>TelemetryDeck</strong> to understand how the app is used in aggregate (e.g., which features are popular, where users drop off). TelemetryDeck is privacy-focused by design:</p>
+        <ul class="mt-2 list-disc list-inside space-y-1 text-sm">
+          <li>No personal identifiers are sent. Anonymous hashed identifiers rotate periodically.</li>
+          <li>No IP address logging, no cookies, no cross-app tracking.</li>
+          <li>Analytics data is aggregated and used only to improve Bibelappen.</li>
+        </ul>
+        <p class="mt-2">See <a href="https://telemetrydeck.com/privacy/" class="text-accent hover:text-accent-dark transition-colors">TelemetryDeck's privacy policy</a> for details.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Crash reporting</h2>
+        <p class="mt-2">Bibelappen uses <strong>Sentry</strong> to capture crash reports and fix bugs. Crash reports include device type, iOS version, and a stack trace. They do not include personally identifiable information. Bible verse text, journal content, AI prompts, and AI responses are explicitly stripped from crash reports before they are sent.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Subscriptions</h2>
+        <p class="mt-2">If you subscribe to Bibelappen Premium, payments are processed entirely by Apple through the App Store. Subscription status is managed by <strong>RevenueCat</strong>, which stores an anonymous identifier tied to your Apple device. We do not receive or store your payment information.</p>
+        <p class="mt-2">See <a href="https://www.revenuecat.com/privacy/" class="text-accent hover:text-accent-dark transition-colors">RevenueCat's privacy policy</a>.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Data we do NOT collect</h2>
+        <ul class="mt-2 list-disc list-inside space-y-1 text-sm">
+          <li>Your name, email, or phone number</li>
+          <li>Your contacts, photos, location, or microphone</li>
+          <li>The content of your journal entries (stored locally and in your iCloud only)</li>
+          <li>Your Bible reading habits beyond aggregate analytics events</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Your rights</h2>
+        <p class="mt-2">Under GDPR and other applicable laws, you have the right to access, correct, or delete your personal data. Because Bibelappen stores your data locally on your device and in your personal iCloud account, you can delete it at any time by removing your data in the app or by uninstalling it. For questions about data we may hold via TelemetryDeck, Sentry, or RevenueCat, contact us below.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Children</h2>
+        <p class="mt-2">Bibelappen is not directed at children under 13. We do not knowingly collect information from children.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Changes</h2>
+        <p class="mt-2">If we update this policy, the revision date above will change. Material changes will be announced in the app.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Contact</h2>
+        <p class="mt-2">Questions about this privacy policy?</p>
+        <p class="mt-2">
+          <a href="mailto:info@wideout.se" class="text-accent hover:text-accent-dark transition-colors">info@wideout.se</a>
+        </p>
+        <p class="mt-1 text-sm text-gray-400">Wideout AB &middot; Stockholm, Sweden</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-8">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+      <p>&copy; 2026 Wideout AB. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a href="/bibelstudier/" class="hover:text-white transition-colors">Bibelappen</a>
+        <a href="/bibelstudier/terms/" class="hover:text-white transition-colors">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
