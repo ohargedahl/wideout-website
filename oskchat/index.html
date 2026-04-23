@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OskChat — AI-Powered Fitness Coach</title>
+  <meta name="description" content="OskChat is a native iOS app for AI-powered fitness coaching. Personalized workouts, smart progression, and a coach that remembers your training history. Built by Wideout AB.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>O</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            accent: '#e1ff6a',
+            'accent-dark': '#c8e650',
+            bg: '#0a0a0a',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-bg text-gray-100 antialiased">
+
+  <!-- Nav -->
+  <nav class="sticky top-0 z-50 bg-black/80 backdrop-blur-md border-b border-gray-800">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="text-lg font-semibold tracking-tight text-gray-100">Wideout</a>
+      <div class="flex gap-6 text-sm text-gray-400">
+        <a href="/oskchat/terms/" class="hover:text-accent transition-colors">Terms</a>
+        <a href="/oskchat/privacy/" class="hover:text-accent transition-colors">Privacy</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="max-w-5xl mx-auto px-6 py-20 md:py-28">
+    <p class="text-sm font-medium tracking-wide uppercase text-accent">OskChat &middot; iOS</p>
+    <h1 class="mt-3 text-4xl md:text-5xl font-bold tracking-tight text-gray-100">Your AI fitness coach.</h1>
+    <p class="mt-5 text-lg md:text-xl text-gray-400 max-w-2xl leading-relaxed">OskChat pairs conversational AI with a real workout engine. Tell the coach what you want to train, and it builds a personalized workout with smart weights, sets, and progression — all based on your history.</p>
+    <p class="mt-4 text-sm text-gray-500">Coming soon to the App Store.</p>
+  </section>
+
+  <!-- Features -->
+  <section class="bg-gray-900/50 py-20 border-y border-gray-800">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-2xl font-semibold tracking-tight text-gray-100">What makes OskChat different</h2>
+      <div class="mt-10 grid gap-8 md:grid-cols-2">
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-100">AI that remembers you</h3>
+          <p class="mt-2 text-gray-400 leading-relaxed">Your coach learns your preferences, injury history, and training patterns. Every workout is personalized to where you are today.</p>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-100">Real workout engine</h3>
+          <p class="mt-2 text-gray-400 leading-relaxed">Not just a chatbot. AI intents are compiled into structured workouts with real weights, sets, and rest periods based on your training history.</p>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-100">Smart progression</h3>
+          <p class="mt-2 text-gray-400 leading-relaxed">Automatic weight progression, deload detection, and volume management. The coach adapts your program as you get stronger.</p>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-100">Programs and goals</h3>
+          <p class="mt-2 text-gray-400 leading-relaxed">Follow structured programs like StrongLifts 5x5 or let the AI design custom training. Set goals and track progress over time.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Support / Contact -->
+  <section class="py-20">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-2xl font-semibold tracking-tight text-gray-100">Support</h2>
+      <p class="mt-4 max-w-2xl text-gray-400 leading-relaxed">Questions, feedback, or bug reports? We read every email.</p>
+      <p class="mt-4">
+        <a href="mailto:info@wideout.se" class="text-accent hover:text-accent-dark transition-colors">info@wideout.se</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-500 py-8">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+      <p>&copy; 2026 Wideout AB. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a href="/oskchat/privacy/" class="hover:text-white transition-colors">Privacy</a>
+        <a href="/oskchat/terms/" class="hover:text-white transition-colors">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
