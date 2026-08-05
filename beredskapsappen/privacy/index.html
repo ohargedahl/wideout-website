@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sv" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redo — Integritetspolicy</title>
+  <meta name="description" content="Integritetspolicy för Redo, appen för hemberedskap från Wideout AB. Redo samlar inte in några uppgifter alls.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>R</text></svg>">
+  <link rel="stylesheet" href="/assets/tailwind.css">
+  <style>:root { --accent: 228 87 46; --accent-dark: 199 69 31; }</style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+  <!-- Nav -->
+  <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="text-lg font-semibold tracking-tight text-gray-900">Wideout</a>
+      <div class="flex gap-6 text-sm text-gray-600">
+        <a href="/beredskapsappen/" class="hover:text-accent transition-colors">Redo</a>
+        <a href="/beredskapsappen/support/" class="hover:text-accent transition-colors">Support</a>
+        <a href="/beredskapsappen/terms/" class="hover:text-accent transition-colors">Villkor</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Integritetspolicy -->
+  <section class="max-w-3xl mx-auto px-6 py-16 md:py-24">
+    <p class="text-sm font-medium tracking-wide uppercase text-accent">Redo</p>
+    <h1 class="mt-3 text-3xl md:text-4xl font-bold tracking-tight text-gray-900">Integritetspolicy</h1>
+    <p class="mt-2 text-sm text-gray-400">Senast uppdaterad: augusti 2026</p>
+
+    <div class="mt-10 space-y-8 text-gray-600 leading-relaxed">
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Kort sagt</h2>
+        <p class="mt-2">Redo samlar inte in några uppgifter. Det finns inget konto, ingen analys, ingen reklam, ingen spårning och ingen server hos oss som lagrar något om dig. Allt du skriver in stannar i din telefon.</p>
+        <p class="mt-2">Det är ett medvetet designval, inte en inställning du måste leta upp. En app som vet vad ett hushåll har hemma och var det bor hanterar uppgifter värda att skydda, och det starkaste skyddet är att inte samla in dem.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Det som stannar i din telefon</h2>
+        <p class="mt-2">Redo sparar följande lokalt med Apples ramverk SwiftData, i appens eget privata utrymme:</p>
+        <ul class="mt-2 list-disc list-inside space-y-1 text-sm">
+          <li>Ditt hushåll (antal vuxna, barn och husdjur)</li>
+          <li>De förnödenheter du lagt in, mängder och bäst före-datum</li>
+          <li>Om du lagt till ett fordon, och vad som finns i det</li>
+          <li>Dina inställningar, inklusive val för påminnelser</li>
+        </ul>
+        <p class="mt-2">Uppgifterna synkas <strong>inte</strong> till iCloud och skickas ingenstans. De finns på den enhet du skrev in dem på. Raderar du appen är de borta — vi har ingen kopia och kan inte återskapa dem åt dig.</p>
+        <p class="mt-2">Widgeten på hemskärmen läser en liten sammanfattning — antalet dygn och ett föreslaget nästa steg — från ett delat utrymme på samma enhet. Inte heller den lämnar telefonen.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Plats</h2>
+        <p class="mt-2">Om du använder skyddsrumskartan ber Redo om åtkomst till din plats för att kunna visa var du befinner dig i förhållande till närmaste skyddsrum. Frågan ställs först när du öppnar kartan, aldrig vid start.</p>
+        <p class="mt-2">Din position finns i minnet så länge kartan är öppen och kastas sedan. Den skrivs aldrig till lagring, sparas aldrig i databasen, hamnar aldrig i någon fil, loggas aldrig och skickas aldrig vidare. Redo använder inte plats i bakgrunden och kan inte följa dina förflyttningar. Du kan säga nej — kartan fungerar ändå, du söker i stället.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Anrop över nätet</h2>
+        <p class="mt-2">Redo kontaktar två externa källor, och bara för att <em>hämta</em> information:</p>
+        <ul class="mt-2 list-disc list-inside space-y-1 text-sm">
+          <li><strong>Krisinformation.se</strong> — för VMA och krisnyheter</li>
+          <li><strong>Det officiella skyddsrumsregistret</strong> (Myndigheten för civilt försvar, via myndighetens öppna karttjänst) — för uppdaterad skyddsrumsdata</li>
+        </ul>
+        <p class="mt-2">Anropen innehåller ingen identifierare, inget konto, inget enhets-ID och ingenting som härrör från något du skrivit in. Det är vanliga hämtningar: Redo ber om offentlig information och får den. Ingenting om dig skickas.</p>
+        <p class="mt-2">Precis som vid varje anrop till varje webbplats ser servrarna du kontaktar din enhets IP-adress, eftersom de måste veta vart svaret ska. Det följer av hur internet fungerar och är inget Redo skickar med. Deras egna integritetsvillkor gäller för den hanteringen. Wideout AB tar aldrig emot, ser eller loggar din IP-adress.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Kraschrapporter</h2>
+        <p class="mt-2">Redo innehåller ingen programvara för kraschrapportering eller analys. Vi använder inga tredjeparts-SDK:er över huvud taget.</p>
+        <p class="mt-2">Om en kraschrapport når oss beror det på att <em>du</em> valt att dela med utvecklare i iOS, under <strong>Inställningar → Integritet och säkerhet → Analys och förbättringar</strong>. Apple samlar in och avidentifierar dessa rapporter; vi ser en stackspårning, en iOS-version och en enhetsmodell. De innehåller ingenting av det du lagt in i Redo. Du kan stänga av det i iOS när som helst, och Redo varken märker det eller beter sig annorlunda.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Om du mejlar oss</h2>
+        <p class="mt-2">Redo kan öppna ett förifyllt meddelande till vår supportadress. Du ser hela meddelandet innan något skickas, du kan ändra eller ta bort vad du vill, och du kan avbryta. Det innehåller endast appens version, din iOS-version och din enhetsmodell — aldrig ditt förråd, ditt hushåll eller din plats.</p>
+        <p class="mt-2">Skriver du till oss sparar vi ditt mejl bara så länge det tar att svara dig.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Sådant vi INTE samlar in</h2>
+        <ul class="mt-2 list-disc list-inside space-y-1 text-sm">
+          <li>Ditt namn, din mejladress, ditt telefonnummer eller något konto — det finns ingen registrering</li>
+          <li>Din plats, varken sparad eller skickad</li>
+          <li>Vad du har i förrådet eller hur förberedd du är</li>
+          <li>Användningsstatistik, funktionsanalys, sessioner eller egna kraschdata</li>
+          <li>Reklamidentifierare — Redo visar ingen reklam och spårar dig inte mellan appar eller webbplatser</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Dina rättigheter</h2>
+        <p class="mt-2">Enligt GDPR har du rätt att få tillgång till, rätta, flytta eller radera personuppgifter om dig. Eftersom Wideout AB inte har några personuppgifter från Redo finns det ingenting för oss att lämna ut eller radera — en begäran skulle ge tomt tillbaka, inte för att vi vägrar utan för att ingenting finns.</p>
+        <p class="mt-2">Dina egna uppgifter finns i din telefon och du bestämmer över dem: ändra eller ta bort enskilda poster i appen, eller radera appen för att ta bort allt på en gång. Vill du få något av detta bekräftat är du välkommen att höra av dig.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Barn</h2>
+        <p class="mt-2">Redo är ett verktyg för hushållets beredskap och riktar sig till vuxna. Appen samlar inte in uppgifter från någon, och alltså inte heller från barn.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Ändringar</h2>
+        <p class="mt-2">Om vi uppdaterar denna policy ändras datumet ovan. Att Redo inte samlar in något är ett åtagande i designen och inte en tillfällig bekvämlighet — skulle det någonsin ändras kommer det att meddelas i appen innan det träder i kraft, inte tyst skrivas om här.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Kontakt</h2>
+        <p class="mt-2">Frågor om den här integritetspolicyn?</p>
+        <p class="mt-2">
+          <a href="mailto:info@wideout.se" class="text-accent hover:text-accent-dark transition-colors">info@wideout.se</a>
+        </p>
+        <p class="mt-1 text-sm text-gray-400">Wideout AB &middot; Stockholm, Sverige</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-8">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+      <p>&copy; 2026 Wideout AB. Alla rättigheter förbehållna.</p>
+      <div class="flex gap-6">
+        <a href="/beredskapsappen/" class="hover:text-white transition-colors">Redo</a>
+        <a href="/beredskapsappen/support/" class="hover:text-white transition-colors">Support</a>
+        <a href="/beredskapsappen/terms/" class="hover:text-white transition-colors">Villkor</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

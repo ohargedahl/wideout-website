@@ -6,19 +6,8 @@
   <title>Wideout AB — App Development Studio</title>
   <meta name="description" content="Wideout AB is a Swedish app development studio building thoughtful, well-crafted apps for iOS and the web.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>W</text></svg>">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            accent: '#2563eb',
-            'accent-dark': '#1d4ed8',
-          }
-        }
-      }
-    }
-  </script>
+  <link rel="stylesheet" href="/assets/tailwind.css">
+  <style>:root { --accent: 37 99 235; --accent-dark: 29 78 216; }</style>
 </head>
 <body class="bg-white text-gray-900 antialiased">
 
@@ -29,6 +18,7 @@
       <div class="flex gap-6 text-sm text-gray-600">
         <a href="/grunda/" class="hover:text-accent transition-colors">Grunda</a>
         <a href="/bibelstudier/" class="hover:text-accent transition-colors">Bibelappen</a>
+        <a href="/beredskapsappen/" class="hover:text-accent transition-colors">Redo</a>
       </div>
     </div>
   </nav>
@@ -61,6 +51,15 @@
           </div>
           <p class="mt-2 text-sm text-gray-600 leading-relaxed">Din dagliga bibelvägledning. AI-drivna andakter, läsplaner och spelifierad bibelläsning.</p>
           <p class="mt-4 text-sm text-indigo-600 group-hover:text-indigo-700 transition-colors">Learn more →</p>
+        </a>
+
+        <a href="beredskapsappen/" class="group block p-6 rounded-2xl border border-gray-200 hover:border-orange-600 hover:shadow-sm transition">
+          <div class="flex items-center justify-between">
+            <h3 class="text-lg font-semibold text-gray-900 group-hover:text-orange-600 transition-colors">Redo</h3>
+            <span class="text-xs text-gray-400 group-hover:text-orange-600 transition-colors">iOS</span>
+          </div>
+          <p class="mt-2 text-sm text-gray-600 leading-relaxed">Hemberedskap utan krångel. Håll koll på förråd hemma och i bilen, hitta närmaste skyddsrum och följ VMA.</p>
+          <p class="mt-4 text-sm text-orange-600 group-hover:text-orange-700 transition-colors">Learn more →</p>
         </a>
       </div>
     </div>
