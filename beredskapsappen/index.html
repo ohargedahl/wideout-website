@@ -1,24 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="sv" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redo — Swedish Home Preparedness</title>
-  <meta name="description" content="Redo helps Swedish households prepare for a crisis. Track your supplies, find your nearest skyddsrum, and follow VMA alerts. Native iOS app by Wideout AB.">
+  <title>Redo — hemberedskap utan krångel</title>
+  <meta name="description" content="Redo hjälper svenska hushåll att bli förberedda. Håll koll på förrådet hemma och i bilen, hitta närmaste skyddsrum och följ VMA. iOS-app från Wideout AB.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>R</text></svg>">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            accent: '#E4572E',
-            'accent-dark': '#C7451F',
-          }
-        }
-      }
-    }
-  </script>
+  <link rel="stylesheet" href="/assets/tailwind.css">
+  <style>:root { --accent: 228 87 46; --accent-dark: 199 69 31; }</style>
 </head>
 <body class="bg-white text-gray-900 antialiased">
 
@@ -28,8 +17,8 @@
       <a href="/" class="text-lg font-semibold tracking-tight text-gray-900">Wideout</a>
       <div class="flex gap-6 text-sm text-gray-600">
         <a href="/beredskapsappen/support/" class="hover:text-accent transition-colors">Support</a>
-        <a href="/beredskapsappen/terms/" class="hover:text-accent transition-colors">Terms</a>
-        <a href="/beredskapsappen/privacy/" class="hover:text-accent transition-colors">Privacy</a>
+        <a href="/beredskapsappen/terms/" class="hover:text-accent transition-colors">Villkor</a>
+        <a href="/beredskapsappen/privacy/" class="hover:text-accent transition-colors">Integritet</a>
       </div>
     </div>
   </nav>
@@ -38,44 +27,44 @@
   <section class="max-w-5xl mx-auto px-6 py-20 md:py-28">
     <p class="text-sm font-medium tracking-wide uppercase text-accent">Redo &middot; iOS</p>
     <h1 class="mt-3 text-4xl md:text-5xl font-bold tracking-tight text-gray-900">Hemberedskap, utan krångel.</h1>
-    <p class="mt-5 text-lg md:text-xl text-gray-500 max-w-2xl leading-relaxed">Redo helps Swedish households get genuinely prepared. Track what you have at home and in the car, find your nearest skyddsrum, and follow official VMA alerts — in one calm, Swedish-language app.</p>
-    <p class="mt-4 text-sm text-gray-400">Coming soon to the App Store.</p>
+    <p class="mt-5 text-lg md:text-xl text-gray-500 max-w-2xl leading-relaxed">Redo hjälper dig att faktiskt bli förberedd. Håll reda på vad du har hemma och i bilen, hitta närmaste skyddsrum och följ officiella VMA — i en lugn app på svenska.</p>
+    <p class="mt-4 text-sm text-gray-400">Kommer snart till App Store.</p>
   </section>
 
   <!-- Features -->
   <section class="bg-gray-50 py-20 border-y border-gray-100">
     <div class="max-w-5xl mx-auto px-6">
-      <h2 class="text-2xl font-semibold tracking-tight text-gray-900">What Redo does</h2>
+      <h2 class="text-2xl font-semibold tracking-tight text-gray-900">Det här gör Redo</h2>
       <div class="mt-10 grid gap-8 md:grid-cols-2">
 
         <div>
-          <h3 class="text-lg font-semibold text-gray-900">Know how many days you are covered</h3>
-          <p class="mt-2 text-gray-600 leading-relaxed">Add what you actually have — water, food, warmth, light — and Redo works out how long it would last your household. One honest number, and a clear next step to improve it.</p>
+          <h3 class="text-lg font-semibold text-gray-900">Se hur många dygn du klarar dig</h3>
+          <p class="mt-2 text-gray-600 leading-relaxed">Lägg in det du faktiskt har — vatten, mat, värme, ljus — så räknar Redo ut hur länge det räcker för ditt hushåll. En ärlig siffra, och ett tydligt nästa steg för att höja den.</p>
         </div>
 
         <div>
-          <h3 class="text-lg font-semibold text-gray-900">Every skyddsrum in Sweden</h3>
-          <p class="mt-2 text-gray-600 leading-relaxed">All 63,000+ public shelters, mapped from the official register, with capacity and address. Works offline — the map you need in a crisis should not depend on a working connection.</p>
+          <h3 class="text-lg font-semibold text-gray-900">Alla skyddsrum i Sverige</h3>
+          <p class="mt-2 text-gray-600 leading-relaxed">Över 63 000 skyddsrum från det officiella registret, med plats och adress. Fungerar utan uppkoppling — kartan du behöver i en kris ska inte kräva att nätet fungerar.</p>
         </div>
 
         <div>
-          <h3 class="text-lg font-semibold text-gray-900">Official alerts, nothing invented</h3>
-          <p class="mt-2 text-gray-600 leading-relaxed">VMA and crisis information straight from Krisinformation.se, clearly attributed. Redo never writes its own emergency messages.</p>
+          <h3 class="text-lg font-semibold text-gray-900">Officiella larm, inget påhittat</h3>
+          <p class="mt-2 text-gray-600 leading-relaxed">VMA och krisinformation direkt från Krisinformation.se, med tydlig källa. Redo skriver aldrig egna larmmeddelanden.</p>
         </div>
 
         <div>
-          <h3 class="text-lg font-semibold text-gray-900">Supplies that stay fresh</h3>
-          <p class="mt-2 text-gray-600 leading-relaxed">A krislåda quietly expires. Redo tracks best-before dates and reminds you to eat and replace — at most once a month, never at night, and never asking you to throw food away.</p>
+          <h3 class="text-lg font-semibold text-gray-900">Ett förråd som håller sig färskt</h3>
+          <p class="mt-2 text-gray-600 leading-relaxed">En krislåda blir tyst gammal. Redo håller koll på bäst före-datum och påminner dig att äta upp och ersätta — högst en gång i månaden, aldrig på natten, och aldrig med uppmaningen att slänga.</p>
         </div>
 
         <div>
-          <h3 class="text-lg font-semibold text-gray-900">The car counts too</h3>
-          <p class="mt-2 text-gray-600 leading-relaxed">A separate winter and summer checklist for the car, including what Swedish law actually requires. Being stuck on the E22 is the emergency most of us are most likely to meet.</p>
+          <h3 class="text-lg font-semibold text-gray-900">Bilen räknas också</h3>
+          <p class="mt-2 text-gray-600 leading-relaxed">En egen vinter- och sommarlista för bilen, inklusive det som faktiskt krävs enligt lag. Att bli stående på E22 är den kris de flesta av oss löper störst risk att möta.</p>
         </div>
 
         <div>
-          <h3 class="text-lg font-semibold text-gray-900">Collects nothing at all</h3>
-          <p class="mt-2 text-gray-600 leading-relaxed">No account, no analytics, no tracking, no servers holding your information. What you own and where you live stays on your phone. This is a deliberate design decision, not a setting.</p>
+          <h3 class="text-lg font-semibold text-gray-900">Samlar in ingenting alls</h3>
+          <p class="mt-2 text-gray-600 leading-relaxed">Inget konto, ingen analys, ingen spårning, inga servrar som lagrar något om dig. Vad du äger och var du bor stannar i din telefon. Det är ett medvetet designval, inte en inställning.</p>
         </div>
 
       </div>
@@ -86,8 +75,8 @@
   <section class="py-16">
     <div class="max-w-5xl mx-auto px-6">
       <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6">
-        <h2 class="text-lg font-semibold text-gray-900">In an emergency, call 112</h2>
-        <p class="mt-2 text-gray-600 leading-relaxed">Redo is a preparedness tool, not an emergency service and not an alerting system. It cannot reach you if your phone is off, out of battery, or without a connection. In an emergency, call <strong>112</strong>. For official information during a crisis, listen to <strong>Sveriges Radio P4</strong> and follow <a href="https://www.krisinformation.se" class="text-accent hover:text-accent-dark transition-colors">Krisinformation.se</a>.</p>
+        <h2 class="text-lg font-semibold text-gray-900">Ring 112 vid nödsituation</h2>
+        <p class="mt-2 text-gray-600 leading-relaxed">Redo är ett verktyg för att förbereda sig, inte en larmtjänst och inte ett varningssystem. Appen kan inte nå dig om telefonen är avstängd, urladdad eller utan täckning. Vid fara, ring <strong>112</strong>. För officiell information under en kris, lyssna på <strong>Sveriges Radio P4</strong> och följ <a href="https://www.krisinformation.se" class="text-accent hover:text-accent-dark transition-colors">Krisinformation.se</a>.</p>
       </div>
     </div>
   </section>
@@ -96,7 +85,7 @@
   <section class="pb-20">
     <div class="max-w-5xl mx-auto px-6">
       <h2 class="text-2xl font-semibold tracking-tight text-gray-900">Support</h2>
-      <p class="mt-4 max-w-2xl text-gray-600 leading-relaxed">Questions, feedback, or a figure you think is wrong? We read every email — and corrections to preparedness guidance are especially welcome.</p>
+      <p class="mt-4 max-w-2xl text-gray-600 leading-relaxed">Frågor, synpunkter eller en siffra du tror är fel? Vi läser varje mejl — och rättelser av beredskapsråd är särskilt välkomna.</p>
       <p class="mt-4">
         <a href="mailto:info@wideout.se" class="text-accent hover:text-accent-dark transition-colors">info@wideout.se</a>
       </p>
@@ -106,11 +95,11 @@
   <!-- Footer -->
   <footer class="bg-gray-900 text-gray-400 py-8">
     <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
-      <p>&copy; 2026 Wideout AB. All rights reserved.</p>
+      <p>&copy; 2026 Wideout AB. Alla rättigheter förbehållna.</p>
       <div class="flex gap-6">
         <a href="/beredskapsappen/support/" class="hover:text-white transition-colors">Support</a>
-        <a href="/beredskapsappen/privacy/" class="hover:text-white transition-colors">Privacy</a>
-        <a href="/beredskapsappen/terms/" class="hover:text-white transition-colors">Terms</a>
+        <a href="/beredskapsappen/privacy/" class="hover:text-white transition-colors">Integritet</a>
+        <a href="/beredskapsappen/terms/" class="hover:text-white transition-colors">Villkor</a>
       </div>
     </div>
   </footer>

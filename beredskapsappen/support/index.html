@@ -1,24 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="sv" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redo — Support &amp; Help</title>
-  <meta name="description" content="Support and frequently asked questions for Redo, the Swedish home preparedness app by Wideout AB.">
+  <title>Redo — Support och hjälp</title>
+  <meta name="description" content="Support och vanliga frågor om Redo, appen för hemberedskap från Wideout AB.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>R</text></svg>">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            accent: '#E4572E',
-            'accent-dark': '#C7451F',
-          }
-        }
-      }
-    }
-  </script>
+  <link rel="stylesheet" href="/assets/tailwind.css">
+  <style>:root { --accent: 228 87 46; --accent-dark: 199 69 31; }</style>
 </head>
 <body class="bg-white text-gray-900 antialiased">
 
@@ -28,8 +17,8 @@
       <a href="/" class="text-lg font-semibold tracking-tight text-gray-900">Wideout</a>
       <div class="flex gap-6 text-sm text-gray-600">
         <a href="/beredskapsappen/" class="hover:text-accent transition-colors">Redo</a>
-        <a href="/beredskapsappen/terms/" class="hover:text-accent transition-colors">Terms</a>
-        <a href="/beredskapsappen/privacy/" class="hover:text-accent transition-colors">Privacy</a>
+        <a href="/beredskapsappen/terms/" class="hover:text-accent transition-colors">Villkor</a>
+        <a href="/beredskapsappen/privacy/" class="hover:text-accent transition-colors">Integritet</a>
       </div>
     </div>
   </nav>
@@ -37,85 +26,84 @@
   <!-- Support -->
   <section class="max-w-3xl mx-auto px-6 py-16 md:py-24">
     <p class="text-sm font-medium tracking-wide uppercase text-accent">Redo</p>
-    <h1 class="mt-3 text-3xl md:text-4xl font-bold tracking-tight text-gray-900">Support &amp; Help</h1>
-    <p class="mt-2 text-sm text-gray-400">Last updated: August 2026</p>
+    <h1 class="mt-3 text-3xl md:text-4xl font-bold tracking-tight text-gray-900">Support och hjälp</h1>
+    <p class="mt-2 text-sm text-gray-400">Senast uppdaterad: augusti 2026</p>
 
     <div class="mt-10 space-y-10 text-gray-600 leading-relaxed">
 
       <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6">
-        <h2 class="text-lg font-semibold text-gray-900">In an emergency, call 112</h2>
-        <p class="mt-2">Redo is a preparedness tool, not an emergency service. It does not call for help, does not alert you, and cannot reach you if your phone is off or without a connection. In an emergency, call <strong>112</strong>. For official information during a crisis, listen to <strong>Sveriges Radio P4</strong> and follow <a href="https://www.krisinformation.se" class="text-accent hover:text-accent-dark transition-colors">Krisinformation.se</a>.</p>
+        <h2 class="text-lg font-semibold text-gray-900">Ring 112 vid nödsituation</h2>
+        <p class="mt-2">Redo är ett verktyg för att förbereda sig, inte en larmtjänst. Appen tillkallar ingen hjälp, varnar dig inte och kan inte nå dig om telefonen är avstängd eller utan täckning. Vid fara, ring <strong>112</strong>. För officiell information under en kris, lyssna på <strong>Sveriges Radio P4</strong> och följ <a href="https://www.krisinformation.se" class="text-accent hover:text-accent-dark transition-colors">Krisinformation.se</a>.</p>
       </div>
 
       <div>
-        <h2 class="text-lg font-semibold text-gray-900">Get in touch</h2>
-        <p class="mt-2">Email us at <a href="mailto:info@wideout.se" class="text-accent hover:text-accent-dark transition-colors">info@wideout.se</a>. We respond within two business days. When reporting a problem, please include your iOS version, device model, and a short description of what happened — Redo's <strong>Inställningar → Rapportera problem</strong> fills those in for you.</p>
-        <p class="mt-2">Skriv gärna på svenska.</p>
+        <h2 class="text-lg font-semibold text-gray-900">Kontakta oss</h2>
+        <p class="mt-2">Mejla <a href="mailto:info@wideout.se" class="text-accent hover:text-accent-dark transition-colors">info@wideout.se</a>. Vi svarar inom två arbetsdagar. Berätta gärna vilken iOS-version och vilken telefon du har, och vad som hände — <strong>Inställningar → Rapportera problem</strong> i appen fyller i det åt dig.</p>
       </div>
 
       <div>
-        <h2 class="text-lg font-semibold text-gray-900">Frequently asked questions</h2>
+        <h2 class="text-lg font-semibold text-gray-900">Vanliga frågor</h2>
 
         <div class="mt-6 space-y-6">
 
           <div>
-            <h3 class="font-semibold text-gray-900">A quantity in the app looks wrong. What do I do?</h3>
-            <p class="mt-2">Tell us. Redo's recommendations are based on official guidance from Myndigheten för civilt försvar, and if a figure disagrees with the source, that is a problem we want to fix quickly. Email <a href="mailto:info@wideout.se" class="text-accent hover:text-accent-dark transition-colors">info@wideout.se</a> with the item and what you believe the correct figure is. Corrections to preparedness guidance are the feedback we most want to receive.</p>
-            <p class="mt-2">The authoritative source is always MCF and <a href="https://www.krisinformation.se" class="text-accent hover:text-accent-dark transition-colors">Krisinformation.se</a>, not Redo.</p>
+            <h3 class="font-semibold text-gray-900">En mängd i appen ser fel ut. Vad gör jag?</h3>
+            <p class="mt-2">Hör av dig. Redos rekommendationer bygger på Myndigheten för civilt försvars officiella råd, och om en siffra avviker från källan är det ett fel vi vill rätta snabbt. Mejla <a href="mailto:info@wideout.se" class="text-accent hover:text-accent-dark transition-colors">info@wideout.se</a> med vilken vara det gäller och vad du tror är rätt. Rättelser av beredskapsråd är den återkoppling vi helst av allt vill ha.</p>
+            <p class="mt-2">Det som gäller är alltid MCF och <a href="https://www.krisinformation.se" class="text-accent hover:text-accent-dark transition-colors">Krisinformation.se</a>, inte Redo.</p>
           </div>
 
           <div>
-            <h3 class="font-semibold text-gray-900">Why does my readiness show 0 days when I have added things?</h3>
-            <p class="mt-2">The day count is limited by whichever category you have least of. Two weeks of food and one day of water is one day of readiness, because you would run out of water first. That is deliberate — an average would tell you that you are prepared when you are not.</p>
-            <p class="mt-2">The thin progress bar underneath moves as soon as you add anything, so your effort is visible even while the headline number is still honestly 0.</p>
+            <h3 class="font-semibold text-gray-900">Varför står det 0 dygn när jag har lagt in saker?</h3>
+            <p class="mt-2">Antalet dygn begränsas av den kategori du har minst av. Två veckors mat och ett dygns vatten blir ett dygns beredskap, eftersom vattnet tar slut först. Det är avsiktligt — ett genomsnitt skulle påstå att du är förberedd när du inte är det.</p>
+            <p class="mt-2">Den tunna stapeln under siffran rör sig så fort du lägger in något, så att arbetet syns även medan siffran ärligt står på 0.</p>
           </div>
 
           <div>
-            <h3 class="font-semibold text-gray-900">Why does the app want my location?</h3>
-            <p class="mt-2">Only to show where you are in relation to the nearest skyddsrum. It is requested when you open the map, never at launch, and your position is held in memory only — never stored, never sent anywhere. You can decline and still use the map by searching.</p>
+            <h3 class="font-semibold text-gray-900">Varför vill appen veta var jag är?</h3>
+            <p class="mt-2">Bara för att visa var du befinner dig i förhållande till närmaste skyddsrum. Frågan ställs när du öppnar kartan, aldrig vid start, och positionen finns bara i minnet — den sparas inte och skickas ingenstans. Du kan säga nej och ändå använda kartan genom att söka.</p>
           </div>
 
           <div>
-            <h3 class="font-semibold text-gray-900">Does Redo work without a connection?</h3>
-            <p class="mt-2">Yes. The shelter dataset and all guidance are stored in the app, so the map and the checklists work with no connection at all. Only VMA and crisis news need the internet, and Redo will show you the last information it retrieved along with when it retrieved it, rather than pretending to be current.</p>
+            <h3 class="font-semibold text-gray-900">Fungerar Redo utan uppkoppling?</h3>
+            <p class="mt-2">Ja. Skyddsrumsdata och alla råd finns i appen, så kartan och listorna fungerar helt utan nät. Bara VMA och krisnyheter behöver internet, och då visar Redo det som senast hämtades tillsammans med när det hämtades, i stället för att låtsas vara aktuell.</p>
           </div>
 
           <div>
-            <h3 class="font-semibold text-gray-900">Can I move my data to a new phone?</h3>
-            <p class="mt-2">Not currently. Redo stores everything on the device and syncs nothing, which is what allows it to collect nothing about you. The trade-off is that a new phone starts empty. If restoring from an iPhone backup does not bring your data across, you will need to add your supplies again.</p>
+            <h3 class="font-semibold text-gray-900">Kan jag flytta mina uppgifter till en ny telefon?</h3>
+            <p class="mt-2">Inte i nuläget. Redo sparar allt lokalt och synkar ingenting, vilket är just det som gör att appen inte samlar in något om dig. Priset är att en ny telefon börjar tom. Om en återställning från säkerhetskopia inte får med sig uppgifterna får du lägga in förrådet på nytt.</p>
           </div>
 
           <div>
-            <h3 class="font-semibold text-gray-900">How do I stop the reminders?</h3>
-            <p class="mt-2">Open <strong>Inställningar</strong> in Redo and turn off rotation reminders, or turn off notifications for Redo entirely in iOS Settings. Redo sends at most one reminder a month, never at night, and never when there is nothing to tell you.</p>
+            <h3 class="font-semibold text-gray-900">Hur stänger jag av påminnelserna?</h3>
+            <p class="mt-2">Öppna <strong>Inställningar</strong> i Redo och stäng av påminnelser om omsättning, eller stäng av notiser för Redo helt i iOS-inställningarna. Redo skickar högst en påminnelse i månaden, aldrig på natten, och aldrig när det inte finns något att säga.</p>
           </div>
 
           <div>
-            <h3 class="font-semibold text-gray-900">How do I delete everything?</h3>
-            <p class="mt-2">Delete the app. Everything Redo knows is stored on your device, so removing the app removes all of it. There is no server-side copy and no account to close.</p>
+            <h3 class="font-semibold text-gray-900">Hur raderar jag allt?</h3>
+            <p class="mt-2">Radera appen. Allt Redo känner till finns i din telefon, så när appen försvinner följer uppgifterna med. Det finns ingen kopia hos oss och inget konto att avsluta.</p>
           </div>
 
           <div>
-            <h3 class="font-semibold text-gray-900">Is the shelter information guaranteed to be correct?</h3>
-            <p class="mt-2">No. Redo shows the official register as published, and that register can be incomplete or out of date. Some shelters are marked as temporarily restricted. Always follow the instructions of emergency services and official channels over anything shown in the app.</p>
+            <h3 class="font-semibold text-gray-900">Är skyddsrumsuppgifterna garanterat korrekta?</h3>
+            <p class="mt-2">Nej. Redo visar det officiella registret som det är publicerat, och registret kan vara ofullständigt eller inaktuellt. Vissa skyddsrum är markerade som tillfälligt begränsade. Följ alltid räddningstjänstens och myndigheternas anvisningar före det som visas i appen.</p>
           </div>
 
           <div>
-            <h3 class="font-semibold text-gray-900">Does Redo cost anything?</h3>
-            <p class="mt-2">No. Redo is free, contains no advertising, and has no in-app purchases.</p>
+            <h3 class="font-semibold text-gray-900">Kostar Redo något?</h3>
+            <p class="mt-2">Nej. Redo är gratis, innehåller ingen reklam och har inga köp i appen.</p>
           </div>
 
         </div>
       </div>
 
       <div>
-        <h2 class="text-lg font-semibold text-gray-900">Data sources</h2>
-        <p class="mt-2">Shelter data comes from Myndigheten för civilt försvar's public register and is used as open data. Crisis alerts and VMA come from <a href="https://www.krisinformation.se" class="text-accent hover:text-accent-dark transition-colors">Krisinformation.se</a>. Preparedness guidance follows MCF's published advice for households.</p>
+        <h2 class="text-lg font-semibold text-gray-900">Källor</h2>
+        <p class="mt-2">Skyddsrumsdata kommer från Myndigheten för civilt försvars offentliga register och används som öppna data. Krisnyheter och VMA kommer från <a href="https://www.krisinformation.se" class="text-accent hover:text-accent-dark transition-colors">Krisinformation.se</a>. Beredskapsråden följer MCF:s publicerade rekommendationer för hushåll.</p>
       </div>
 
       <div>
-        <h2 class="text-lg font-semibold text-gray-900">Requirements</h2>
-        <p class="mt-2">Redo requires iOS 18 or later on iPhone.</p>
+        <h2 class="text-lg font-semibold text-gray-900">Krav</h2>
+        <p class="mt-2">Redo kräver iOS 18 eller senare på iPhone.</p>
       </div>
 
     </div>
@@ -124,11 +112,11 @@
   <!-- Footer -->
   <footer class="bg-gray-900 text-gray-400 py-8">
     <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
-      <p>&copy; 2026 Wideout AB. All rights reserved.</p>
+      <p>&copy; 2026 Wideout AB. Alla rättigheter förbehållna.</p>
       <div class="flex gap-6">
         <a href="/beredskapsappen/" class="hover:text-white transition-colors">Redo</a>
-        <a href="/beredskapsappen/privacy/" class="hover:text-white transition-colors">Privacy</a>
-        <a href="/beredskapsappen/terms/" class="hover:text-white transition-colors">Terms</a>
+        <a href="/beredskapsappen/privacy/" class="hover:text-white transition-colors">Integritet</a>
+        <a href="/beredskapsappen/terms/" class="hover:text-white transition-colors">Villkor</a>
       </div>
     </div>
   </footer>
