@@ -27,7 +27,7 @@
   <section class="max-w-3xl mx-auto px-6 py-16 md:py-24">
     <p class="text-sm font-medium tracking-wide uppercase text-accent">Bibelappen</p>
     <h1 class="mt-3 text-3xl md:text-4xl font-bold tracking-tight text-gray-900">Privacy Policy</h1>
-    <p class="mt-2 text-sm text-gray-400">Last updated: April 2026</p>
+    <p class="mt-2 text-sm text-gray-400">Last updated: August 2026</p>
 
     <div class="mt-10 space-y-8 text-gray-600 leading-relaxed">
 
@@ -52,9 +52,10 @@
 
       <div>
         <h2 class="text-lg font-semibold text-gray-900">AI-powered features</h2>
-        <p class="mt-2">Bibelappen uses AI to generate devotionals, study questions, and verse context. When you use these features, your request (such as a Bible reference or a study question) is sent to our proxy server, which forwards it to OpenAI for processing. We do not store these requests or responses on our servers — they are relayed in real time and discarded.</p>
-        <p class="mt-2">The AI proxy does not receive your name, email, Apple ID, or any identifier that ties requests to you personally. Requests include only the Bible reference or question text needed to generate a response.</p>
-        <p class="mt-2">OpenAI's data usage policy applies to the processing of these requests. See <a href="https://openai.com/policies/privacy-policy" class="text-accent hover:text-accent-dark transition-colors">OpenAI's privacy policy</a>.</p>
+        <p class="mt-2">Bibelappen uses AI for the daily insight and devotional, verse context, study questions, the daily quiz, free-text Bible questions, and AI-generated reading plans and collections. When you use these features, your request is sent to our proxy server — a <strong>Cloudflare Worker</strong> — which forwards it to <strong>OpenAI</strong>. <strong>We do not store your requests or the responses.</strong></p>
+        <p class="mt-2">What the request contains depends on the feature: a Bible reference, the text of a question you typed, a topic you described, or — for the daily insight and devotional — the book and chapter references of your last few readings, so the text can respond to what you have been reading. It never contains your name, email, Apple ID, or any identifier that ties a request to you personally, and OpenAI never sees your IP address, because the call is made by our server rather than by your device.</p>
+        <p class="mt-2"><strong>OpenAI retains API requests for up to 30 days</strong> for abuse monitoring before deleting them. That is OpenAI's default policy, not something we control, and it is why anything you type into an AI feature should be treated as leaving your device. See <a href="https://openai.com/policies/privacy-policy" class="text-accent hover:text-accent-dark transition-colors">OpenAI's privacy policy</a>.</p>
+        <p class="mt-2">To keep the service working and its costs bounded, our proxy stores two things: a per-device key registered through Apple's <strong>App Attest</strong> (a key identifier and a public key, kept for up to 400 days, which proves requests come from a genuine copy of the app), and short-lived request counters. Where no device key is available, a counter may be keyed to your IP address for up to 48 hours. Neither holds anything you wrote or read.</p>
       </div>
 
       <div>
@@ -85,13 +86,27 @@
           <li>Your name, email, or phone number</li>
           <li>Your contacts, photos, location, or microphone</li>
           <li>The content of your journal entries (stored locally and in your iCloud only)</li>
-          <li>Your Bible reading habits beyond aggregate analytics events</li>
+          <li>Your reading history on our servers — it stays on your device and in your iCloud. The book and chapter references of your last few readings are <em>sent</em> to OpenAI when you use the daily insight or devotional, as described above, but we do not keep them.</li>
         </ul>
       </div>
 
       <div>
+        <h2 class="text-lg font-semibold text-gray-900">Who processes data for us, and where</h2>
+        <p class="mt-2">Wideout AB is the data controller. We use these processors, and no others:</p>
+        <ul class="mt-2 list-disc list-inside space-y-1 text-sm">
+          <li><strong>Cloudflare</strong> — hosts the AI proxy and the App Attest key and rate-limit records described above.</li>
+          <li><strong>OpenAI</strong> — generates the AI text.</li>
+          <li><strong>TelemetryDeck</strong> — anonymous usage analytics.</li>
+          <li><strong>Sentry</strong> — crash reports.</li>
+          <li><strong>RevenueCat</strong> — subscription status.</li>
+          <li><strong>Apple</strong> — the App Store, and your own iCloud, which we cannot read.</li>
+        </ul>
+        <p class="mt-2">Several of these are based outside the EU/EEA, so data processed by them may be transferred to and processed in the United States. Those transfers rely on the European Commission's adequacy decision for the EU–US Data Privacy Framework where the provider is certified under it, and on Standard Contractual Clauses otherwise.</p>
+      </div>
+
+      <div>
         <h2 class="text-lg font-semibold text-gray-900">Your rights</h2>
-        <p class="mt-2">Under GDPR and other applicable laws, you have the right to access, correct, or delete your personal data. Because Bibelappen stores your data locally on your device and in your personal iCloud account, you can delete it at any time by removing your data in the app or by uninstalling it. For questions about data we may hold via TelemetryDeck, Sentry, or RevenueCat, contact us below.</p>
+        <p class="mt-2">Under GDPR and other applicable laws, you have the right to access, correct, or delete your personal data. Because Bibelappen stores your data locally on your device and in your personal iCloud account, you can delete it at any time by removing your data in the app or by uninstalling it. For questions about data we may hold via TelemetryDeck, Sentry, RevenueCat, Cloudflare or OpenAI, contact us below.</p>
       </div>
 
       <div>
